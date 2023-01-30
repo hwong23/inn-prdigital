@@ -30,7 +30,7 @@ public class InnpulsaProductodigitalApplication {
 		// appl innpulsa version 0.1
 		SpringApplication.run(InnpulsaProductodigitalApplication.class, args);
 		
-		milog.info("Producto digital Innpulsa, version 0.5");
+		milog.info("Producto digital Innpulsa, version 0.8");
 	}
 	
 
