@@ -20,22 +20,23 @@ public class Publicacion {
 	private long id;
 	private String proyecto, entidad;
 	
-
+	public Publicacion() {}
+	
 	public Publicacion(String proyecto, String entidad) {
 		super();
 		this.proyecto = proyecto;
 		this.entidad = entidad;
 	}
-	protected String getProyecto() {
+	public String getProyecto() {
 		return proyecto;
 	}
-	protected void setProyecto(String proyecto) {
+	public void setProyecto(String proyecto) {
 		this.proyecto = proyecto;
 	}
-	protected String getEntidad() {
+	public String getEntidad() {
 		return entidad;
 	}
-	protected void setEntidad(String entidad) {
+	public void setEntidad(String entidad) {
 		this.entidad = entidad;
 	}
 	

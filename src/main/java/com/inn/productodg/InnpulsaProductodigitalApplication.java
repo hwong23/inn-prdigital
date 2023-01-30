@@ -45,7 +45,6 @@ public class InnpulsaProductodigitalApplication {
 			
 			prorepo.save(new Propuesta ("ASESW.com", "Caracterizador", pu1));
 			prorepo.save(new Propuesta ("ColombiaDigital.com", "Libro-e", pu2));
-			
 		};
 	}	
 

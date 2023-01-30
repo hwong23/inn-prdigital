@@ -15,10 +15,8 @@ public class PublicacionControl {
 
 	
 	// punto de exposición (endpoint)
-	@RequestMapping("/busqueda")
+	@RequestMapping("/publicacion")
 	public Iterable<Publicacion> getPublicaciones() {
 		return repositorio.findAll();
 	}
-	
-
 }

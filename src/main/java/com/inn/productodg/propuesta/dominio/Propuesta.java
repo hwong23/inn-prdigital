@@ -27,6 +27,7 @@ public class Propuesta {
 	@JoinColumn(name = "publicacion")
 	private Publicacion publicacion;
 
+	public Propuesta() {}
 	
 	public Propuesta(String proponente, String solucion, 
 			Publicacion publicacion) {
@@ -37,22 +38,22 @@ public class Propuesta {
 	}
 
 
-	protected String getProponente() {
+	public String getProponente() {
 		return proponente;
 	}
-	protected void setProponente(String proponente) {
+	public void setProponente(String proponente) {
 		this.proponente = proponente;
 	}
-	protected String getSolucion() {
+	public String getSolucion() {
 		return solucion;
 	}
-	protected void setSolucion(String solucion) {
+	public void setSolucion(String solucion) {
 		this.solucion = solucion;
 	}
-	protected Publicacion getPublicacion() {
+	public Publicacion getPublicacion() {
 		return publicacion;
 	}
-	protected void setPublicacion(Publicacion publicacion) {
+	public void setPublicacion(Publicacion publicacion) {
 		this.publicacion = publicacion;
 	}
 	
