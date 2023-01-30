@@ -16,7 +16,7 @@ import com.inn.productodg.domain.Propietario;
 
 
 @SpringBootApplication
-public class CardatabaseApplication {
+public class InnpulsaProductodigitalApplication {
 
 	@Autowired
 	private CarRepositorio repository;
@@ -26,11 +26,11 @@ public class CardatabaseApplication {
 	
 	public static void main(String[] args) {
 		
-		final Logger milog = LoggerFactory.getLogger(CardatabaseApplication.class);
+		final Logger milog = LoggerFactory.getLogger(InnpulsaProductodigitalApplication.class);
 			
 			
 		// appl innpulsa version 0.1
-		SpringApplication.run(CardatabaseApplication.class, args);
+		SpringApplication.run(InnpulsaProductodigitalApplication.class, args);
 		
 		milog.info("Producto digital Innpulsa, version 0.1");
 	}
