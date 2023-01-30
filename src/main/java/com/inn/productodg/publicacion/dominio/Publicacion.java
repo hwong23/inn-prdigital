@@ -2,9 +2,11 @@ package com.inn.productodg.publicacion.dominio;
 
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -19,7 +21,6 @@ public class Publicacion {
 	private String proyecto, entidad;
 	
 
-	
 	public Publicacion(String proyecto, String entidad) {
 		super();
 		this.proyecto = proyecto;
