@@ -1,3 +1,6 @@
-/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/domain/CarRepositorio.java
-/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/CardatabaseApplication.java
-/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/domain/Car.java
+/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/InnpulsaProductodigitalApplication.java
+/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/convocatoria/dominio/Convocatoria.java
+/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/convocatoria/aplicacion/puerto/salida/ConvocatoriaRep.java
+/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/publicacion/dominio/Publicacion.java
+/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/publicacion/adaptador/entrada/web/PublicacionControl.java
+/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/publicacion/aplicacion/puerto/salida/PublicacionRep.java

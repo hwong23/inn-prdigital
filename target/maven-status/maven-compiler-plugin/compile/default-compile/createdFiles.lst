@@ -1,3 +1,5 @@
-com/inn/productodg/domain/CarRepositorio.class
-com/inn/productodg/domain/Propietario.class
-com/inn/productodg/domain/PropietRepositorio.class
+com/inn/productodg/publicacion/dominio/Publicacion.class
+com/inn/productodg/convocatoria/dominio/Convocatoria.class
+com/inn/productodg/publicacion/aplicacion/puerto/salida/PublicacionRep.class
+com/inn/productodg/InnpulsaProductodigitalApplication.class
+com/inn/productodg/publicacion/adaptador/entrada/web/PublicacionControl.class

@@ -1,10 +1,10 @@
-package com.inn.productodg.postulacion.publicacion.aplicacion.puerto.salida;
+package com.inn.productodg.publicacion.aplicacion.puerto.salida;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.inn.productodg.postulacion.publicacion.dominio.Publicacion;
+import com.inn.productodg.publicacion.dominio.Publicacion;
 
 
 

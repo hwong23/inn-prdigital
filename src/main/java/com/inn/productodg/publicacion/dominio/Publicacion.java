@@ -1,17 +1,17 @@
-package com.inn.productodg.postulacion.publicacion.dominio;
+package com.inn.productodg.publicacion.dominio;
 
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.FetchType;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 
 
 @Entity
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Publicacion {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
@@ -37,6 +37,5 @@ public class Publicacion {
 	protected void setEntidad(String entidad) {
 		this.entidad = entidad;
 	}
-	
 	
 }
