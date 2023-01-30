@@ -1,4 +1,4 @@
-package com.inn.productodg.postulacion.busqueda.dominio;
+package com.inn.productodg.postulacion.publicacion.dominio;
 
 
 import javax.persistence.Entity;
