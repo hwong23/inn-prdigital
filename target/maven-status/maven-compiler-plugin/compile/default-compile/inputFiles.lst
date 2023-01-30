@@ -1,6 +1,8 @@
 /Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/InnpulsaProductodigitalApplication.java
-/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/convocatoria/dominio/Convocatoria.java
-/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/convocatoria/aplicacion/puerto/salida/ConvocatoriaRep.java
+/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/propuesta/dominio/Propuesta.java
+/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/propuesta/aplicacion/HacerPostulacion.java
+/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/propuesta/adaptador/entrada/web/PropuestaControl.java
 /Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/publicacion/dominio/Publicacion.java
 /Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/publicacion/adaptador/entrada/web/PublicacionControl.java
+/Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/propuesta/aplicacion/puerto/salida/persistencia/PropuestaRep.java
 /Users/hwong23/git/inn-prdigital/src/main/java/com/inn/productodg/publicacion/aplicacion/puerto/salida/PublicacionRep.java
