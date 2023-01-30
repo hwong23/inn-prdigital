@@ -8,7 +8,7 @@ import com.inn.productodg.propuesta.dominio.Propuesta;
 
 
 
-public interface ConvocatoriaRep extends CrudRepository <Propuesta, Long> {
+public interface PropuestaRep extends CrudRepository <Propuesta, Long> {
 
 
 	List<Propuesta> findByProponente(String proponente);
