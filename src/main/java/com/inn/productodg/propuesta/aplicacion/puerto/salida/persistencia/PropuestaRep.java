@@ -1,4 +1,4 @@
-package com.inn.productodg.propuesta.aplicacion.puerto.salida;
+package com.inn.productodg.propuesta.aplicacion.puerto.salida.persistencia;
 
 import java.util.List;
 

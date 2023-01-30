@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.inn.productodg.propuesta.aplicacion.puerto.salida.PropuestaRep;
+import com.inn.productodg.propuesta.aplicacion.puerto.salida.persistencia.PropuestaRep;
 import com.inn.productodg.propuesta.dominio.Propuesta;
 import com.inn.productodg.publicacion.dominio.Publicacion;
 

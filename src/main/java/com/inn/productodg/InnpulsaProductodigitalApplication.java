@@ -8,7 +8,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.inn.productodg.propuesta.aplicacion.puerto.salida.PropuestaRep;
+import com.inn.productodg.propuesta.aplicacion.puerto.salida.persistencia.PropuestaRep;
 import com.inn.productodg.propuesta.dominio.Propuesta;
 import com.inn.productodg.publicacion.aplicacion.puerto.salida.PublicacionRep;
 import com.inn.productodg.publicacion.dominio.Publicacion;
